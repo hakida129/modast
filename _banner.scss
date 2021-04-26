@@ -1,0 +1,23 @@
+.banner {
+  background-image: url("./images/banner.png");
+  height: 660px;
+  &-info {
+    padding-top: 220px;
+    padding-left: 380px;
+  }
+  &-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+  }
+  &-desc {
+    padding: 21px 39px 40px 20px;
+    color: #a4aead;
+    height: 77px;
+    width: 740px;
+    background-color: #2b2d35;
+    line-height: 22px;
+    opacity: 0.8;
+  }
+}

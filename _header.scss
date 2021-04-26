@@ -1,0 +1,35 @@
+.header {
+  background-color: $gray-dark;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  &-logo {
+    margin-left: 380px;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-right: 100px;
+    &-item {
+      margin-right: 40px;
+      display: inline-block;
+      padding: 8px 10px;
+    }
+    &-item:hover {
+      color: $text-hover;
+      border: solid 3px;
+      border-radius: 6px;
+    }
+    &-link {
+      color: $text-color;
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}

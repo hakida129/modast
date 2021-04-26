@@ -1,0 +1,19 @@
+.modest {
+  &-heading {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-weight: lighter;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  &-heading:before {
+    content: "";
+    height: 35px;
+    width: 10px;
+    padding-right: 15px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}

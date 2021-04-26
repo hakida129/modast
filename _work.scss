@@ -1,0 +1,19 @@
+.work {
+  position: relative;
+  background-color: #3a454d;
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-item {
+    width: calc(33.33% - 20px);
+    padding-bottom: 30px;
+  }
+  &-button {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+}

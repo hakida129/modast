@@ -19,11 +19,12 @@
       margin-right: 40px;
       display: inline-block;
       padding: 8px 10px;
+      border: 3px solid transparent;
     }
     &-item:hover {
       color: $text-hover;
-      border: solid 3px;
       border-radius: 6px;
+      border-color: $text-hover;
     }
     &-link {
       color: $text-color;

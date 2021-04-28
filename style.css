@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 *,
 span {
   margin: 0;
@@ -20,11 +24,9 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
   line-height: 1;
   background-color: white;
   color: #1d2126;
-  margin-bottom: 100px;
 }
 
 ul,
@@ -241,6 +243,7 @@ li {
 }
 
 .work {
+  height: 90rem;
   position: relative;
   background-color: #3a454d;
 }
@@ -261,6 +264,7 @@ li {
 }
 
 .doing {
+  height: 89rem;
   position: relative;
   padding-bottom: 160px;
 }
@@ -274,7 +278,7 @@ li {
   width: calc(25% - 25px);
 }
 .doing-item-image {
-  padding-top: 90px;
+  padding-top: 5rem;
   text-align: center;
   font-size: 42px;
   padding-bottom: 35px;
@@ -291,6 +295,64 @@ li {
   line-height: 25px;
   text-align: center;
   color: #a4aead;
+  font-size: 1.5rem;
+}
+
+.features {
+  height: 73rem;
+  background-color: #3a454d;
+  position: relative;
+}
+.features-title {
+  font-size: 3.6rem;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+.features-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features-item {
+  width: calc(33.33% - 2rem);
+}
+.features-item-title {
+  padding-top: 5.5rem;
+  padding-bottom: 3rem;
+  color: white;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.features-item-desc {
+  color: #a4aead;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+}
+
+.footer {
+  height: 10rem;
+  background-color: #3a454d;
+  border-top: 2px solid white;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  line-height: 10rem;
+}
+.footer-title {
+  color: white;
+  font-size: 1.6rem;
+}
+.footer-social {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.footer-social-item {
+  padding-right: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

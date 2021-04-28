@@ -1,0 +1,33 @@
+.features {
+  height: 73rem;
+  background-color: $color_primary;
+  position: relative;
+  &-title {
+    font-size: 3.6rem;
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-item {
+    width: calc(33.33% - 2rem);
+    &-title {
+      padding-top: 5.5rem;
+      padding-bottom: 3rem;
+      color: white;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+    }
+    &-desc {
+      color: $text-color;
+      line-height: 2.2rem;
+      font-size: 1.5rem;
+    }
+  }
+}

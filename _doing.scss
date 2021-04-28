@@ -1,4 +1,5 @@
 .doing {
+  height: 89rem;
   position: relative;
   padding-bottom: 160px;
   &-list {
@@ -10,7 +11,7 @@
   &-item {
     width: calc(25% - 25px);
     &-image {
-      padding-top: 90px;
+      padding-top: 5rem;
       text-align: center;
       font-size: 42px;
       padding-bottom: 35px;
@@ -28,6 +29,7 @@
         line-height: 25px;
         text-align: center;
         color: $text-color;
+        font-size: 1.5rem;
       }
     }
   }

@@ -1,6 +1,7 @@
 .work {
+  height: 90rem;
   position: relative;
-  background-color: #3a454d;
+  background-color: $color_primary;
   &-list {
     display: flex;
     align-items: center;
